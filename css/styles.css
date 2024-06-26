@@ -1,0 +1,121 @@
+:root {
+    --primaryFont: 'Montserrat', sans-serif;
+    --secondaryFont: 'Roboto', sans-serif;
+    --primaryColor: #61892f;
+    --primaryColorAlt: #86c232;
+    --secondaryColor: #222629;
+    --grayColor: #474b4f;
+    --lightGrayColor: #e6ecf0;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+body {
+    background-color: var(--secondaryColor);
+    color: var(--grayColor);
+    font-family: var(--secondaryFont);
+    overflow-x: hidden;
+}
+
+.contenedor {
+    max-width: 120rem;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+.tipos-contenedor {
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+h1 {
+    font-family: var(--primaryFont);
+    color: var(--primaryColorAlt);
+}
+
+h2 {
+    font-family: var(--primaryFont);
+    color: var(--primaryColorAlt);
+    font-size: 2.5rem;
+}
+
+span:hover {
+    color: var(--primaryColor);
+    cursor: pointer;
+}
+
+p {
+    font-family: var(--secondaryFont);
+    color: var(--lightGrayColor);
+    font-size: 2rem;
+    text-align: justify;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 1.5rem 0;
+}
+
+header {
+    background-color: #191c1e;
+
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0 0 1.5rem 0;
+}
+
+nav ul li {
+    margin-right: 2rem;
+}
+
+a {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: var(--primaryColorAlt);
+    font-weight: bold;
+}
+
+a:hover {
+    color: var(--primaryColor);
+}
+
+.ventajas ul li {
+    list-style: none;
+    color: var(--lightGrayColor);
+    font-size: 2rem;
+}
+
+.desventajas ul li {
+    list-style: none;
+    color: var(--lightGrayColor);
+    font-size: 2rem;
+}
+
+footer {
+    display: grid;
+    justify-content: center;
+    background-color: #191c1e;
+    color: var(--lightGrayColor);
+    text-align: center;
+    padding: 2rem;
+}
