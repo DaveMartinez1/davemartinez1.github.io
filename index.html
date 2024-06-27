@@ -11,19 +11,24 @@
     </head>
     <body>
         <header>
-            <h1 class="logo">Negocios Inteligentes</h1>
-            <nav>
-                <ul>
-                    <li><a href="#">Inicio</a></li>
-                    <li><a href="#">Sobre Nosotros</a></li>
-                    <li><a href="#">Contacto</a></li>
-                </ul>
-            </nav>
+            <div class="nav-contenedor">
+                <h1 class="logo">Negocios Inteligentes</h1>
+                <nav>
+                    <ul>
+                        <li><a href="#">Inicio</a></li>
+                        <li><a href="#">Sobre Nosotros</a></li>
+                        <li><a href="#">Contacto</a></li>
+                    </ul>
+                </nav>
+            </div>
         </header>
         <div class="contenedor">
             <main>
                 <div class="contenedor"></div>
             </main>
+            <section id="hero">
+                <h1>Los negocios inteligentes<br></h1>
+            </section>
             <section class="que-es">
                 <h2>¿Qué son los <span class="color-logo">Negocios Inteligentes</span>?</h2>
                 <p>
@@ -31,58 +36,68 @@
                 </p>
             </section>
             <section class="tipos">
-                <h2>Tipos de Negocios Inteligentes</h2>
+                <h2 class="tipos-logo">Tipos de Negocios Inteligentes</h2>
                 <div class="tipos-contenedor">
                     <div class="tipo">
-                        <h2>Blockchain y Criptomonedas</h2>
                         <img src="img/blockchain.png" alt="blockchain">
-                        <p>
-                            Utilizan tecnología blockchain para mejorar la transparencia, seguridad y eficiencia en transacciones financieras y contratos digitales.
-                        </p>
+                        <div>
+                            <h2>Blockchain y Criptomonedas</h2>
+                            <p>
+                                Utilizan tecnología blockchain para mejorar la transparencia, seguridad y eficiencia en transacciones financieras, contratos digitales y registros de datos. Este enfoque permite una mayor confianza en las transacciones, eliminando intermediarios y reduciendo costos.
+                            </p>
+                        </div>
                     </div>
                     <div class="tipo">
-                        <h2>Cloud Computing</h2>
                         <img src="img/cloud-computing.webp" alt="cloud computing">
-                        <p>
-                            Empresas que migran sus operaciones a plataformas en la nube para mejorar la escalabilidad, accesibilidad y seguridad de sus datos y aplicaciones.
-                        </p>
+                        <div>
+                            <h2>Cloud Computing</h2>
+                            <p>
+                                Empresas que migran sus operaciones a plataformas en la nube para mejorar la escalabilidad, accesibilidad y seguridad de sus datos y aplicaciones. Este cambio permite un acceso remoto eficiente y una gestión flexible de recursos tecnológicos, optimizando costos y facilitando la innovación.
+                            </p>
+                        </div>
                     </div>
                     <div class="tipo">
-                        <h2>Educación Online</h2>
                         <img src="img/online-education.png" alt="educacion online">
-                        <p>
-                            Plataformas de aprendizaje en línea, cursos digitales y recursos educativos interactivos para estudiantes de todas las edades.
-                        </p>
+                        <div>
+                            <h2>Educación Online</h2>
+                            <p>
+                                Plataformas de aprendizaje en línea, cursos digitales y recursos educativos interactivos para estudiantes de todas las edades. Estas herramientas proporcionan flexibilidad en el aprendizaje, permitiendo a los estudiantes acceder a contenido educativo de alta calidad desde cualquier lugar y en cualquier momento.
+                            </p>
+                        </div>
                     </div>
                     <div class="tipo">
-                        <h2>Estrategias de Marketing Digital</h2>
                         <img src="img/marketing-digital.jpg" alt="marketing digital">
-                        <p>
-                            Negocios que utilizan tecnologías digitales para segmentar a su audiencia, personalizar experiencias de usuario y optimizar campañas de marketing en línea.
-                        </p>
+                        <div>
+                            <h2>Estrategias de Marketing Digital</h2>
+                            <p>
+                                Negocios que utilizan tecnologías digitales para segmentar a su audiencia, personalizar experiencias de usuario y optimizar campañas de marketing en línea. Estas estrategias permiten una comunicación más efectiva con los clientes, aumentando la lealtad y mejorando el retorno de la inversión en publicidad.
+                            </p>
+                        </div>
                     </div>
                 </div>
             </section>
-            <section class="ventajas-desventajas">
-                <h2>Ventajas</h2>
-                <div class="ventajas">
-                    <ul>
-                        <li>✔️ Mejora de la Eficiencia Operativa</li>
-                        <li>✔️ Toma de Decisiones Informada</li>
-                        <li>✔️ Mayor Personalización</li>
-                        <li>✔️ Incremento en la Productividad</li>
-                        <li>✔️ Innovación Continua</li>
-                    </ul>
-                </div>
-                <h2>Desventajas</h2>
-                <div class="desventajas">
-                    <ul>
-                        <li>❌ Costos Iniciales Elevados</li>
-                        <li>❌ Dependencia de la Tecnología</li>
-                        <li>❌ Desafíos de Integración</li>
-                        <li>❌ Desigualdad Digital</li>
-                        <li>❌ Riesgos de Privacidad</li>
-                    </ul>
+            <section>
+                <div class="ventajas-desventajas">
+                    <div class="columnas ventajas">
+                        <h2>Ventajas</h2>
+                        <ul>
+                            <li>✔️ Mejora de la Eficiencia Operativa</li>
+                            <li>✔️ Toma de Decisiones Informada</li>
+                            <li>✔️ Mayor Personalización</li>
+                            <li>✔️ Incremento en la Productividad</li>
+                            <li>✔️ Innovación Continua</li>
+                        </ul>
+                    </div>
+                    <div class="columnas desventajas">
+                        <h2>Desventajas</h2>
+                        <ul>
+                            <li>❌ Costos Iniciales Elevados</li>
+                            <li>❌ Dependencia de la Tecnología</li>
+                            <li>❌ Desafíos de Integración</li>
+                            <li>❌ Desigualdad Digital</li>
+                            <li>❌ Riesgos de Privacidad</li>
+                        </ul>
+                    </div>
                 </div>
             </section>
             <section class="caso-exito">
@@ -93,8 +108,9 @@
             </section>
         </div>
         <footer>
-            <p>Contact: info@example.com</p>
             <p>&copy; 2024 Negocios Inteligentes.<br>Todos los derechos reservados.</p>
         </footer>
+        <a href="#" class="ir-arriba">↑ Ir Arriba</a>
+        <script src="js/mainj.js"></script>
     </body>
 </html>
