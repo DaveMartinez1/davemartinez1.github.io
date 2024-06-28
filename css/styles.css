@@ -258,6 +258,7 @@ footer {
         cursor: pointer;
         display: none;
         z-index: 1000;
+        border-radius: 1rem;
       }
       
     .ir-arriba:hover {
