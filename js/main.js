@@ -1,14 +1,24 @@
 document.addEventListener('scroll', function() {
-    var scrollPosition = window.scrollY;
+    var scrollPosition = window.scrollY
     var button = document.querySelector('.ir-arriba');
     if (scrollPosition > 500) {
-      button.style.display = 'block';
+      button.style.display = 'block'
     } else {
-      button.style.display = 'none';
+      button.style.display = 'none'
     }
-});  
+})
 
 document.querySelector('.ir-arriba').addEventListener('click', function(e) {
-    e.preventDefault();
-    window.scrollTo({top: 0, behavior: 'smooth'});
-});
+    e.preventDefault()
+    window.scrollTo({top: 0, behavior: 'smooth'})
+})
+
+document.addEventListener("DOMContentLoaded", function() {
+  if (window.location.pathname.endsWith("index.html")) {
+      var footer = document.querySelector("footer")
+      if (footer) {
+          footer.style.position = "static"
+      }
+  }
+})
+
