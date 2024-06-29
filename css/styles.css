@@ -292,7 +292,7 @@ footer {
     }
 
     .participantes ul {
-        list-style: number;
+        list-style: outside;
         display: inline-block;
         color: white;
         font-size: 3rem;
