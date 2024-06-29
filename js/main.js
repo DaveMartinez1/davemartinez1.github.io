@@ -14,11 +14,13 @@ document.querySelector('.ir-arriba').addEventListener('click', function(e) {
 })
 
 document.addEventListener("DOMContentLoaded", function() {
-  if (window.location.pathname.endsWith("index.html")) {
-      var footer = document.querySelector("footer")
+  var pathname = window.location.pathname;
+  
+  if (pathname === "/" || pathname.endsWith("index.html")) {
+      var footer = document.querySelector("footer");
       if (footer) {
-          footer.style.position = "static"
+          footer.style.position = "static";
       }
   }
-})
+});
 
