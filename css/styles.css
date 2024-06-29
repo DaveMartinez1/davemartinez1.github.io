@@ -321,8 +321,8 @@ footer {
         z-index: -1;
     }
     
-    body.contacto, html.contacto, body.sobre-nosotros, html.sobre-nosotros {
-        overflow: hidden;
+    #body-contacto, #body-sobre-nosotros {
+        overflow-y: hidden;
     }
 
     .contact-form-container {
