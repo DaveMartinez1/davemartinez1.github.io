@@ -1,6 +1,6 @@
 document.addEventListener('scroll', function() {
     var scrollPosition = window.scrollY
-    var button = document.querySelector('.ir-arriba');
+    var button = document.querySelector('.ir-arriba')
     if (scrollPosition > 500) {
       button.style.display = 'block'
     } else {
@@ -14,13 +14,19 @@ document.querySelector('.ir-arriba').addEventListener('click', function(e) {
 })
 
 document.addEventListener("DOMContentLoaded", function() {
-  var pathname = window.location.pathname;
+  if (window.location.pathname.endsWith("sobre-nosotros.html")) {
+      document.body.style.overflow = 'hidden'
+  }
+})
+
+document.addEventListener("DOMContentLoaded", function() {
+  var pathname = window.location.pathname
   
   if (pathname === "/" || pathname.endsWith("index.html")) {
-      var footer = document.querySelector("footer");
+      var footer = document.querySelector("footer")
       if (footer) {
-          footer.style.position = "static";
+          footer.style.position = "static"
       }
   }
-});
+})
 

@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function() {
     const bodyId = document.body.id;
-    if (bodyId === 'body-contacto' || bodyId === 'body-sobre-nosotros') {
+    if (bodyId === 'body-contacto' || bodyId === 'body-sobre-nosotros' || bodyId === 'body-principal') {
         particlesJS('particles-js', {
             particles: {
                 number: {
